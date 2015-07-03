@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | My Octopress Blog]]></title>
   <link href="http://xcyzxcyz.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://xcyzxcyz.github.io/"/>
-  <updated>2015-07-03T23:19:44+08:00</updated>
+  <updated>2015-07-03T23:35:43+08:00</updated>
   <id>http://xcyzxcyz.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -89,6 +89,14 @@ rake preview
 
 
 <p><img src="http://s1.jikexueyuan.com/common/images/logo_c8caff4.png" alt="" /></p>
+
+<h2>部署网站到GitHub Page</h2>
+
+<ul>
+<li>新建 github 仓库 必须是username.github.io</li>
+<li><a href="http://octopress.org/docs/deploying/github/">http://octopress.org/docs/deploying/github/</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
