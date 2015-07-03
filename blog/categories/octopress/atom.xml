@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | My Octopress Blog]]></title>
+  <link href="http://xcyzxcyz.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://xcyzxcyz.github.io/"/>
+  <updated>2015-07-03T23:19:44+08:00</updated>
+  <id>http://xcyzxcyz.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress 笔记]]></title>
+    <link href="http://xcyzxcyz.github.io/blog/2015/07/03/jikexy/"/>
+    <updated>2015-07-03T22:05:41+08:00</updated>
+    <id>http://xcyzxcyz.github.io/blog/2015/07/03/jikexy</id>
+    <content type="html"><![CDATA[<h1>Octopress</h1>
+
+<p>October是十月的意思，Wordpress中也有press,press指出版物</p>
+
+<h2>环境搭建</h2>
+
+<h3>Git/Github</h3>
+
+<ul>
+<li>安装git，注册github</li>
+<li>使用 git bash 进行设置
+<code>
+git config --global user.name "xcyzxcyz"
+git config --global user.email "xcyzxcyz@126.com"
+ssh-keygen -t rsa -C "xcyzxcyz3@126.com"
+</code></li>
+<li>将生成的公钥添加到github的设置中</li>
+<li>测试ssh key
+<code>
+ssh -T git@github.com
+</code></li>
+</ul>
+
+
+<h3>Ruby</h3>
+
+<ul>
+<li>下载Rubyinstaller 安装Ruby</li>
+<li>添加ruby/bin到环境变量</li>
+<li>git bash 测试<code>ruby --version</code></li>
+<li>下载Devkit 解压</li>
+<li>在解压目录中打开git bash
+<code>
+ruby dk.rb init
+vi config.yml
+ruby dk.rb install
+</code></li>
+</ul>
+
+
+<h3>Octopress 安装</h3>
+
+<ul>
+<li>官网教程 点击下方的start here</li>
+<li>设置 git bash 为快速编辑模式</li>
+<li>更改 gem 软件源
+<code>
+gem sources -a https://ruby.taobao.org/
+gem sources -r https://rubygems.org/
+gem sources -l
+</code></li>
+<li>修改Gemfile 修改gem源</li>
+<li>不使用 rbenv rehash</li>
+<li>调试
+<code>
+rake generate
+rake preview
+</code></li>
+<li>修改octopress\source_includes\head.html</li>
+<li>替换为百度的 jquery</li>
+</ul>
+
+
+<h2>写blog</h2>
+
+<ul>
+<li><a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></li>
+</ul>
+
+
+<p><img src="http://s1.jikexueyuan.com/common/images/logo_c8caff4.png" alt="" /></p>
+]]></content>
+  </entry>
+  
+</feed>
