@@ -4,25 +4,21 @@
   <title><![CDATA[Category: Ruby | My Octopress Blog]]></title>
   <link href="http://xcyzxcyz.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://xcyzxcyz.github.io/"/>
-  <updated>2015-07-04T00:09:51+08:00</updated>
+  <updated>2015-07-04T23:00:37+08:00</updated>
   <id>http://xcyzxcyz.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[xcyzxcyz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Octopress 笔记]]></title>
+    <title type="html"><![CDATA[Octopress 的搭建静态博客网站]]></title>
     <link href="http://xcyzxcyz.github.io/blog/2015/07/03/jikexy/"/>
     <updated>2015-07-03T22:05:41+08:00</updated>
     <id>http://xcyzxcyz.github.io/blog/2015/07/03/jikexy</id>
-    <content type="html"><![CDATA[<h1>Octopress</h1>
-
-<p>October是十月的意思，Wordpress中也有press,press指出版物</p>
-
-<h2>环境搭建</h2>
+    <content type="html"><![CDATA[<h2>环境搭建</h2>
 
 <h3>Git/Github</h3>
 
@@ -84,17 +80,36 @@ rake preview
 <h2>写blog</h2>
 
 <ul>
-<li><a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></li>
+<li><a href="http://octopress.org/docs/blogging/">官方文档</a></li>
 </ul>
 
-
-<p><img src="http://s1.jikexueyuan.com/common/images/logo_c8caff4.png" alt="" /></p>
 
 <h2>部署网站到GitHub Page</h2>
 
 <ul>
 <li>新建 github 仓库 必须是username.github.io</li>
-<li><a href="http://octopress.org/docs/deploying/github/">http://octopress.org/docs/deploying/github/</a></li>
+<li><a href="http://octopress.org/docs/deploying/github/">官方文档</a>
+
+<h3>将 source 上传到 GitHub</h3>
+
+<pre><code>cd octopress
+git add .
+git commit -m "first"
+git push origin source
+</code></pre></li>
+</ul>
+
+
+<h2>自定义</h2>
+
+<ul>
+<li>修改主题
+<a href="http://octopress.org/docs/theme/">官方文档</a></li>
+<li>date-format
+_config.yml 做修改
+<code>date_format: "%Y-%m-%d"</code></li>
+<li>修改 octostrap3 的主题
+<a href="http://kaworu.github.io/octostrap3/blog/2013/10/02/pick-a-theme-for-only-one-page/">官方文档</a></li>
 </ul>
 
 ]]></content>
