@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | My Octopress Blog]]></title>
   <link href="http://xcyzxcyz.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://xcyzxcyz.github.io/"/>
-  <updated>2015-07-04T23:00:37+08:00</updated>
+  <updated>2015-07-11T20:37:44+08:00</updated>
   <id>http://xcyzxcyz.github.io/</id>
   <author>
     <name><![CDATA[xcyzxcyz]]></name>
@@ -23,7 +23,8 @@
 <h3>Git/Github</h3>
 
 <ul>
-<li>安装git，注册github</li>
+<li>安装git，注册github
+百度搜github然后注册，有邮箱验证</li>
 <li>使用 git bash 进行设置
 <code>
 git config --global user.name "xcyzxcyz"

@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://xcyzxcyz.github.io/atom.xml" rel="self"/>
   <link href="http://xcyzxcyz.github.io/"/>
-  <updated>2015-07-04T23:00:37+08:00</updated>
+  <updated>2015-07-11T20:37:44+08:00</updated>
   <id>http://xcyzxcyz.github.io/</id>
   <author>
     <name><![CDATA[xcyzxcyz]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress-emacs]]></title>
+    <link href="http://xcyzxcyz.github.io/blog/2015/07/09/octopress-emacs/"/>
+    <updated>2015-07-09T21:20:19+08:00</updated>
+    <id>http://xcyzxcyz.github.io/blog/2015/07/09/octopress-emacs</id>
+    <content type="html"><![CDATA[<h3>keyword</h3>
+
+<ul>
+<li>emacs ocotopress</li>
+<li>eshell</li>
+<li>pygments ocotopress python 27</li>
+<li>win8 msi</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">M</span><span class="o">+</span><span class="n">X</span> <span class="n">eshell</span>
+</span><span class='line'><span class="n">rake</span> <span class="n">preview</span>
+</span><span class='line'><span class="n">M</span><span class="o">+</span><span class="n">X</span> <span class="n">rename</span><span class="o">-</span><span class="n">buffer</span> <span class="n">eshell1</span>
+</span><span class='line'><span class="n">M</span><span class="o">+</span><span class="n">X</span> <span class="n">eshell</span>
+</span><span class='line'><span class="n">rake</span> <span class="n">new_post</span><span class="o">[</span><span class="s1">&#39;&#39;</span><span class="o">]</span>
+</span><span class='line'><span class="n">prn</span> <span class="s2">&quot;aaa&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='clojure'><span class='line'><span class="p">(</span><span class="kd">defn </span><span class="nv">f</span> <span class="p">[</span><span class="nv">x</span><span class="p">]</span>
+</span><span class='line'>  <span class="p">(</span><span class="nb">mapcat + </span><span class="nv">x</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress 的搭建静态博客网站]]></title>
@@ -23,7 +66,8 @@
 <h3>Git/Github</h3>
 
 <ul>
-<li>安装git，注册github</li>
+<li>安装git，注册github
+百度搜github然后注册，有邮箱验证</li>
 <li>使用 git bash 进行设置</li>
 </ul>
 
